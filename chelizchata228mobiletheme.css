@@ -1,0 +1,229 @@
+/* фон артурия + белый текст */
+body {
+background: url(https://desu.shikimori.one/system/user_images_h/original/c503b334a5f3c916f2187cfc/b33d2c2a24398e7a7e929fbee63146342300b2e57990000a35bf7f2fff6252dd.jpg) no-repeat fixed top !important;
+background-size: cover;
+  color: white;}
+/* чёрный передний прозрачный фон  */
+.l-page {
+background-color: rgba(0, 0, 0, 0.7);}
+/* белый текст */
+html[data-color-mode="light"] {
+  --link-color: #fff;
+  --headline-color: #fff;
+  color: #fff;}
+/* убрать из профился табло активности */ 
+  .c-column .activity {
+  display: none;}
+/* чёрный фон текстовика */
+.b-shiki_editor .body .editor textarea {
+  background-color: #222;
+  color: #fff;}
+/* фон спойлера */
+.b-spoiler_block > div {
+  background-color: #222;}
+/* всплывающее окно фон */
+.tooltip-inner {
+  background-color: #222;
+  color: #fff;}
+/* цвет ссылок */
+.b-link {
+  color: #e6b85c;}
+/* цвет надписей на странцие профиля */
+.b-stats_bar .stat_names .stat_name a {
+  color: #ffffff; }
+/* цвет надписей на странцие тайтла */
+.b-entry-info .line .value {
+    color: #ffffff;}
+/* цвет рейтинга на странице тайтла */
+.b-rate .text-score {
+  color: #fff;}
+/* цвет надписи на странице тайтла */
+.b-rate .score-notice {
+  color: #7a7a7a;}
+/* цвет нижнего подчёркивания жанров на странице тайтла */
+.b-tag[href] {
+  border-bottom-color: #2b8a; }
+/* цвет жанров на странице тайтла */
+.b-tag {
+    border-bottom: 1px dashed #bbb;
+  color: #fff;}
+/* цвет различных кнопок */
+  .buttons :is(.item-save, .item-moderation, .item-preview, .item-unpreview, .item-quote.is-active, .item-reply, .item-edit, .item-delete, .item-apply, .item-request-confirm, .item-delete-confirm, .item-cancel, .item-request-reject, .item-delete-cancel, .item-moderation-cancel, .item-subscribe, .item-offtopic, .item-summary, .item-spoiler, .item-abuse, .item-ban, .item-ignore, .item-ignore.selected),
+.buttons :is(.editor-bold, .editor-italic, .editor-underline, .editor-strike, .editor-link, .editor-image, .editor-quote, .editor-spoiler, .editor-smiley, .editor-file),
+.b-list_switchers .switcher:is(.lines, .list, .posters, .popularity, .alphabet, .progress),
+.b-subposter-action,
+.item-add,
+.item-minus,
+.item-mobile,
+.item-quote-mobile.is-active, .b-news_wall-topic .status-line .comments,
+.item-sign,
+.profile-actions :is(.fav-add, .ban, .ignore-add, .talk, .mail, .settings),
+.p-tests-show .fonts-test [class|="icon"],
+.p-user_rates-index .list-lines tr td .anime-remove {
+  color: white;}
+/* цвет кнопки добавления в список */
+.b-add_to_list.planned .option, .b-add_to_list.planned .trigger {
+    background: #878787; border-color: #363636; }
+/* цвет кнопки "смотрю" */
+.b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
+    background: #daf1ff;
+    border-color: #bce6ff;
+  color: #176093;}
+/* цвет надписи "в списках у" */
+.b-animes-menu .total-rates {
+  color: #fff;}
+/* цвет кнопки статистики поставленных оценок */
+.bar.horizontal .line .x_label {
+  color: #fff;}
+/* цвет названий тайтлов на главной странице */
+.b-news_wall-topic .title {    color: #fff;}
+/* цвет названия студий на главной странице */
+.b-catalog_entry .cover .misc span {
+  color: #b3b3b3;}
+/* цвет кнопки сообщений */
+.b-news_line-topic .status-line {
+  color: #d1d1d1; }
+/* плашки тёмные */
+.headline, .midheadline, .subheadline {
+    background: #171717;
+    border-left: #171717;
+  color: #fff;}
+/* цвет ответок в комментариях */
+  a.b-mention {
+    color: #6d9fc2;}
+.b-quote-v2 {
+    background-color: #333;
+  border-left: 4px solid #555;}
+/* цвет личных данных в профиле */
+header.head .notice {
+  color: #d1d1d1;}
+/* цвет надиси " активность" в профиле */
+.p-profiles .profile-head .c-info .c-additionals b {
+  color: #adadad;}
+/* цвет плашки последнего добавленного тайтла в список на гл. стр. */
+.p-dashboards-show .v2 .my-list {
+  background: #333;}
+/* цвет надписиси "мой список" на главной странице */
+.p-dashboards-show .v2 .my-list .label span {
+  color: #fff;}
+/* цвет надписиси "смотрю" на главной странице */  
+.b-user_rate-history .status-counter {
+    color: #fff;}
+/* цвет тайтлов в турнире */
+.p-contests .match-day .match-link .c-column.loser a, .p-contests .match-day .match-link .c-column.created, .p-contests .match-day .match-link.voted-none>.c-column a, .p-contests .match-day .match-link.voted-left>.c-column:last-child a, .p-contests .match-day .match-link.voted-right>.c-column:first-child a, .p-contests .match-day .match-link .c-column.loser a, .p-contests .match-day .match-link .c-column.created a {
+  color: #fff;}
+/* прозрачность тайтлов в турнире */
+.p-contests .match-day .match-link.active 
+ {background-color: rgba(0, 0, 0, 0.0);}
+/* кнопка открытия комментов */
+.b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander {
+    background: #333;
+  color: #fff;}
+/* цвет тайтлов в турнире, когда на них наводишь */
+.p-contests .match-day .match-link:hover 
+{background-color: #333;}
+/* цвет фона цитаты в комментариях */
+.b-quote {
+    background: #333;
+  border: 1px dashed #fff;
+color: #fff}
+/* цвет названия коллекций/статей */
+.p-topics header h1 a.reload {
+  color: #fff;}
+/* цвет надписи запланированного */
+.b-catalog_entry.planned .image-decor:after {
+  color: #176093;}
+/* цвет кнопок "аниме" "манга" "ранобе" и их теги на гл. странице */
+.p-dashboards-show .v2 .fc-user-sections .tag-link.anime-tag, 
+.p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag,
+.p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
+    color: #fff;
+    background-color: #333;
+  border: 1px solid #fff}
+/* цвет фона всякого в настройках */
+.b-input input, select, textarea { 
+  color: #fff;
+    background-color: #333;
+  border: 1px solid #ddd;}
+/* цвет при навожении на тайтл в списке */
+.p-user_rates-index .list-lines .selectable:hover, 
+.p-user_rates-index .list-lines tr.edit-form form {
+    background: #333;
+ background-color: #333;}
+/* цвет кол-ва просмотренных эпизодов и пр. в списке */
+.p-user_rates-index .list-groups .summary.lines {
+  color: #fff;}
+/* цвет описания тайтлов в списке */
+.p-user_rates-index .list-lines tr td .rate-text {
+  color: #ababab;}
+/* цвет "названия" и пр. в списке */
+.p-user_rates-index .l-content .order-control {
+  color: #fff;}
+/* цвет надписи "в топике" в комментарие */
+.b-comment>.inner .name-date a.name .normal {
+  color: #3b4878;}
+/* цвет надписи "в сети" в профиле */
+header.head .misc, header.head a.edit {
+  color: rgba(0, 0, 0, 0.0);}
+/* цвет фона аниме при поиске */
+.l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode, .l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus, .l-top_menu-v2 .global-search .search-results .search-mode:hover {background-color: #333;}
+/* цвет надписей при поиске */
+.b-db_entry-variant-list_item>.info .line .key, .l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .search-mode {
+  color: #fff;}
+/* цвет надписей при навожении на аниме */
+.b-catalog_entry-tooltip .inner .line .key, 
+.b-catalog_entry-tooltip .inner .rating .text, 
+.b-catalog_entry-tooltip .inner .rating {
+  color: #fff;}
+/* цвет тегов коллекций */
+.b-anime_status_tag.collection-tag[href] {
+    cursor: pointer;
+  background-color: #dd5202;}
+/* цвет верхней плашки форума */
+.b-hot_topics-v2 {
+    background-color: #333;
+  border-bottom: 1px solid #d0d8db;}
+.b-hot_topics-v2 .subject {
+  color: #fff;}
+/* цвет плашки отзывов */
+.b-reviews_navigation .navigation-node-all {
+    color: #fff;
+    background-color: #333;
+  border-color: #5c5c5c;}
+.b-reviews_navigation .navigation-node-positive {
+    color: #5fc752;
+    background-color: #1e4918;
+    border-color: #1e49;}
+.b-reviews_navigation .navigation-node-neutral {
+    color: #88d7d8;
+    background-color: #184849;
+    border-color: #009991;}
+.b-reviews_navigation .navigation-node-negative {
+    color: #bd857a;
+    background-color: #491818;
+    border-color: #990000;}
+/* цвет кнопок на отзывах */
+.b-review-topic.is-review_review_author_details>.inner .review-details .b-status-line,
+.b-status-line .section.main .comments:before, 
+.b-critique_votes:before, 
+.b-status-line .section.created_at time:before {
+  color: #828282;}
+.b-review-topic.is-review_review_author_details>.inner .review-info .neutral {
+    color: #309792;}
+.b-add_to_list.completed .trigger, .b-add_to_list.completed .option,
+.b-add_to_list.completed .edit, 
+.b-review-topic.is-review_review_author_details>.inner .review-info .opinion.positive,
+.b-review-topic.is-review_review_author_details>.inner .review-info .opinion.neutral,
+.b-review-topic.is-review_review_author_details>.inner .review-info .opinion.negative {
+    background: #333;
+    border-color: #404040;
+    color: #fff;}
+.b-footer_vote {
+    background-color: #333;
+  color: #fff;}
+/* цвет кнопки "показать остальное" */
+.b-show_more {
+  color: #949494;}
+/* цвет полоски при большом тексте */
+.b-height_shortener .shade {
+  background-image: linear-gradient(to bottom,#fff0, #333)}
